@@ -77,14 +77,6 @@ const jsonLd = {
       email: "imoore@echoledger.ai",
       description:
         "Productized quantitative DeFi analysis practice. LP audits, DAO treasury reviews, pool health assessments. Methodology powered by defipy.",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "4949 Canoe Pass Way, Suite 1008",
-        addressLocality: "Tsawwassen",
-        addressRegion: "BC",
-        postalCode: "V4M 0B2",
-        addressCountry: "CA",
-      },
       founder: { "@id": "https://echoledger.ai/#person" },
       sameAs: [
         "https://github.com/defipy-devs",

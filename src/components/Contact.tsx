@@ -49,46 +49,6 @@ export function Contact() {
             </a>
           </div>
         </div>
-
-        {/*
-          Mailing address — secondary contact register. The two action cards
-          above are the PRIMARY contact paths (email + Calendly); this block
-          is the postal channel and the canonical-address surface.
-
-          Visually lighter than the cards by design — smaller heading
-          weight, no card chrome, separated by a horizontal rule that splits
-          the section into primary actions / secondary postal.
-
-          The same address also lives in the site Footer (every page) and is
-          asserted as structured data in the root layout's JSON-LD
-          Organization → PostalAddress. Three reinforcing surfaces:
-            1. Footer  — present on every page, every visit
-            2. Contact — present here on the homepage where humans look
-            3. JSON-LD — structured data signal for search and AI
-
-          "EchoLedger" is the FIRST LINE of the <address> block — required by
-          the virtual mail service (return-to-sender if the recipient name
-          is missing). The label "Mailing address:" is the parsable adjacent
-          context that helps crawlers recognize what this address represents.
-        */}
-        <div className="mt-12 border-t border-[rgb(58_106_120/0.2)] pt-10">
-          <div className="flex flex-col items-start gap-2 text-[0.9375rem] leading-[1.7] text-[var(--color-text-secondary)] sm:flex-row sm:gap-6">
-            <div className="shrink-0 font-medium text-[var(--color-text-primary)]">
-              Mailing address:
-            </div>
-            <address className="not-italic">
-              <strong className="font-medium text-[var(--color-text-primary)]">
-                EchoLedger
-              </strong>
-              <br />
-              4949 Canoe Pass Way, Suite 1008
-              <br />
-              Tsawwassen, BC V4M 0B2
-              <br />
-              Canada
-            </address>
-          </div>
-        </div>
       </div>
     </section>
   );
