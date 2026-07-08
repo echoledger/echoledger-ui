@@ -1,4 +1,4 @@
-# DeFiMind Services — The Monetary Extension of Defipy
+# EchoLedger Services — The Monetary Extension of Defipy
 
 *Positioning document. How the open-source library and the consulting practice relate, why both exist, and what each is for.*
 
@@ -8,7 +8,7 @@
 
 ## The One-Line
 
-**Defipy is the math, open and free. DeFiMind is the analysis, productized and paid.**
+**Defipy is the math, open and free. EchoLedger is the analysis, productized and paid.**
 
 Same operator. Same methodology. Two surfaces — one for the community, one for the buyer who needs the work done.
 
@@ -28,7 +28,7 @@ But underneath every download is a real question the user is trying to answer:
 
 Most users will answer those questions themselves with defipy. That's the point of the library. A meaningful fraction, though — funds, DAOs, protocol teams, individual large LPs — would rather have the answer delivered as a finished report than do the work themselves. They have the capital. They don't have the time, the quant background, or the appetite to translate library output into a defensible recommendation.
 
-**DeFiMind Services is for that fraction.**
+**EchoLedger Services is for that fraction.**
 
 It's not a fork of defipy, not a paid tier, not a closed version. It's the same math — applied by the author, written into a report, delivered with a recommendation, billed to a corporate entity.
 
@@ -52,7 +52,7 @@ It's not a fork of defipy, not a paid tier, not a closed version. It's the same 
 
 **What it signals:** *The methodology is real. You can verify it yourself. Nothing is hidden behind a paywall.*
 
-### defimind.ai — The Productized Layer
+### echoledger.ai — The Productized Layer
 
 **Purpose:** Done-for-you analysis. Reports. Engagements.
 
@@ -84,7 +84,7 @@ This is the question that comes up, so it's worth answering directly.
 
 **5. The report is the product.** What buyers actually want is a 6–10 page PDF they can forward to their CFO, post to their governance forum, or file with their LPs. Defipy outputs are inputs to that artifact, not substitutes for it.
 
-The free library doesn't cannibalize the paid practice. It *qualifies* it. Buyers who arrive at defimind.ai through defipy already trust the math — that's most of the sale, done for free, before the first conversation.
+The free library doesn't cannibalize the paid practice. It *qualifies* it. Buyers who arrive at echoledger.ai through defipy already trust the math — that's most of the sale, done for free, before the first conversation.
 
 ---
 
@@ -92,12 +92,12 @@ The free library doesn't cannibalize the paid practice. It *qualifies* it. Buyer
 
 The two surfaces feed each other.
 
-**Defipy → DeFiMind:**
+**Defipy → EchoLedger:**
 - Library users discover the practice
 - Open methodology is the credential that justifies the price
 - 50K+ downloads is the warm distribution surface most consultants never have
 
-**DeFiMind → Defipy:**
+**EchoLedger → Defipy:**
 - Real engagement work surfaces edge cases, missing functions, unclear documentation
 - Improvements get pushed back into the library
 - Library gets stronger; the credential gets stronger; the practice gets stronger
@@ -111,9 +111,9 @@ This is the asymmetry the seed brief named: most DeFi consultants ship one of th
 **For defipy.org:**
 - Stays free, stays open, stays the engineering and educational home
 - v2 site launches as planned
-- A small, non-prominent reference to defimind.ai for users who want done-for-you analysis ("Need this run on your position? defimind.ai") — placed where it's findable but not pushy
+- A small, non-prominent reference to echoledger.ai for users who want done-for-you analysis ("Need this run on your position? echoledger.ai") — placed where it's findable but not pushy
 
-**For defimind.ai:**
+**For echoledger.ai:**
 - Productized services page, fixed prices, fast turnaround
 - Defipy is referenced prominently as the methodology backbone — *"powered by defipy, open-source, 50,000+ downloads"*
 - GitHub link visible
@@ -121,40 +121,40 @@ This is the asymmetry the seed brief named: most DeFi consultants ship one of th
 
 **For the operator:**
 - One brand and identity for engineering and teaching (defipy)
-- One brand and identity for client work (DeFiMind)
-- Both contracted through DeFiMind Inc.
+- One brand and identity for client work (EchoLedger)
+- Both contracted through EchoLedger Inc.
 - Same person, same math, two surfaces, one arc
 
 ---
 
 ## What This Is Not
 
-**Not a freemium funnel.** Defipy is not a teaser for DeFiMind. The library is fully featured, will remain fully featured, and stands on its own merit. DeFiMind exists for buyers who want the work done — not for users who hit a paywall.
+**Not a freemium funnel.** Defipy is not a teaser for EchoLedger. The library is fully featured, will remain fully featured, and stands on its own merit. EchoLedger exists for buyers who want the work done — not for users who hit a paywall.
 
-**Not a "premium tier" of defipy.** There is no DeFiMind-only function, dataset, or capability that defipy users don't have. The math is the same.
+**Not a "premium tier" of defipy.** There is no EchoLedger-only function, dataset, or capability that defipy users don't have. The math is the same.
 
-**Not a rebrand.** Defipy stays defipy. DeFiMind stays DeFiMind. They're complementary, not consolidated.
+**Not a rebrand.** Defipy stays defipy. EchoLedger stays EchoLedger. They're complementary, not consolidated.
 
-**Not a hedge.** This isn't "defipy in case open-source works, DeFiMind in case it doesn't." Both are intentional and permanent. The library is the methodology layer. The practice is the analysis layer. Both will exist five years from now.
+**Not a hedge.** This isn't "defipy in case open-source works, EchoLedger in case it doesn't." Both are intentional and permanent. The library is the methodology layer. The practice is the analysis layer. Both will exist five years from now.
 
 ---
 
 ## The Larger Arc
 
-DeFiMind Services is the cashflow practice. It funds the operator and underwrites continued investment in defipy and in adjacent research (including AnchorRegistry, the separate venture building provenance infrastructure for agentic systems).
+EchoLedger Services is the cashflow practice. It funds the operator and underwrites continued investment in defipy and in adjacent research (including AnchorRegistry, the separate venture building provenance infrastructure for agentic systems).
 
 Defipy is the trust foundation. It's the public artifact that makes everything else credible — the consulting practice today, and whatever the agentic-DeFi convergence looks like later.
 
 Together they form a coherent operator profile that's hard to assemble from scratch:
 
 - **Open-source tooling with measurable adoption** (defipy, 50K+ downloads)
-- **Operator-grade analysis available for hire** (DeFiMind Services)
+- **Operator-grade analysis available for hire** (EchoLedger Services)
 - **Academic foundation** (PhD Applied Mathematics)
 - **Industry credentials** (ex-Chief Data Scientist, Syscoin)
 - **Public visibility** (ETH Denver speaker, published book and courses)
 - **Forward-looking research** (AnchorRegistry, arXiv:2604.03434)
 
-Defipy alone is a respected library. DeFiMind alone would be one consultant among many. Together — open math underneath, productized analysis on top — they're a category of one.
+Defipy alone is a respected library. EchoLedger alone would be one consultant among many. Together — open math underneath, productized analysis on top — they're a category of one.
 
 ---
 

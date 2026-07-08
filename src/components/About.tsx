@@ -20,13 +20,13 @@ export function About() {
             Ian Moore, PhD
           </h2>
           <p className="mt-2 text-[clamp(1rem,1.5vw,1.25rem)] font-medium tracking-[0.01em] text-[var(--color-accent)]">
-            Principal, DeFiMind
+            Principal, EchoLedger
           </p>
         </div>
 
         <div className="max-w-[62ch] space-y-5 text-base leading-[1.75] text-[var(--color-text-secondary)]">
           <p>
-            DeFiMind is a quantitative DeFi research practice. Engagements range
+            EchoLedger is a quantitative DeFi research practice. Engagements range
             from productized work &mdash; LP audits, treasury reviews, pool
             diagnostics &mdash; through scoped advisory for teams whose
             problems don&rsquo;t fit a fixed-scope SKU. The methodology is
@@ -88,7 +88,7 @@ export function About() {
           </p>
 
           <p className="pt-2 text-[0.9375rem] text-[var(--color-text-muted)]">
-            Based in British Columbia. Engagements contracted through DeFiMind
+            Based in British Columbia. Engagements contracted through EchoLedger
             Inc.
           </p>
         </div>

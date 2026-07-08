@@ -43,7 +43,7 @@ export function Hero() {
             • MCP        · Live → hosted endpoint, call it from any MCP client
             • StateTwins · Run  → installable agent, run it locally
           Together the two pills name the two ways a builder/agent-curious
-          person can engage with DeFiMind's open infrastructure.
+          person can engage with EchoLedger's open infrastructure.
         */}
         <div className="mt-8 flex max-w-[820px] flex-row gap-2.5">
           <Link

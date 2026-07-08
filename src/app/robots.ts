@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://defimind.ai";
+const BASE_URL = "https://echoledger.ai";
 
 // All pages indexable. No private routes, no admin surface, no staging paths
 // to disallow. Sitemap reference points crawlers at the canonical entry.

@@ -1,4 +1,4 @@
-# DeFiMind.ai — Site Build Seed
+# EchoLedger.ai — Site Build Seed
 
 *Handoff brief for the build thread. Pairs with the existing project docs (Services Seed, Defipy Extension, Full Offering Outline) — this doc adds the implementation-layer context those don't cover: stack, visual spec, positioning shift, and build scope.*
 
@@ -10,7 +10,7 @@
 
 The previous thread worked through positioning, offering, brand identity, naming, LinkedIn, outreach, and visual direction. This doc captures the implementation-relevant decisions that came out of that work, so the build thread can move directly into scaffolding without re-litigating settled questions.
 
-The build thread's job is to produce the actual defimind.ai site — Next.js project, deployed to Vercel, ready to go live.
+The build thread's job is to produce the actual echoledger.ai site — Next.js project, deployed to Vercel, ready to go live.
 
 ---
 
@@ -18,11 +18,11 @@ The build thread's job is to produce the actual defimind.ai site — Next.js pro
 
 **The Services Seed and Full Offering Outline both describe a productized consulting practice with agentic advisory as an optional fourth SKU. That framing has shifted.**
 
-The updated framing: **DeFiMind is positioned as agentic DeFi analytics, front-door.** The thesis is that AI agents will increasingly run DeFi analytics, and DeFiMind is the practice operating at that intersection — the operator (Ian Moore) is the trust anchor, defipy is the engine, and the work is agent-augmented analysis with human review and sign-off.
+The updated framing: **EchoLedger is positioned as agentic DeFi analytics, front-door.** The thesis is that AI agents will increasingly run DeFi analytics, and EchoLedger is the practice operating at that intersection — the operator (Ian Moore) is the trust anchor, defipy is the engine, and the work is agent-augmented analysis with human review and sign-off.
 
 **Why the shift:**
 
-- The brand has always carried this signal — defimind.ai (.ai TLD, May 2025 brand origin)
+- The brand has always carried this signal — echoledger.ai (.ai TLD, May 2025 brand origin)
 - The September 2025 whitepaper was originally an agent product concept
 - The thesis has matured: "agents running DeFi analytics" is the imminent reality, not a long-term hypothesis
 - AnchorRegistry's research on operator-gated provenance gives the agentic positioning credibility that pure AI-DeFi consultants don't have
@@ -38,10 +38,10 @@ The updated framing: **DeFiMind is positioned as agentic DeFi analytics, front-d
 
 **What stays the same:**
 
-- The four SKU structure (LP audit, treasury review, pool health, the fourth being the build-with-DeFiMind option)
+- The four SKU structure (LP audit, treasury review, pool health, the fourth being the build-with-EchoLedger option)
 - The introductory pricing strategy
 - The methodology-open principle (defipy as public, reports as paid)
-- The corporate operating frame (DeFiMind Inc., contracted engagements)
+- The corporate operating frame (EchoLedger Inc., contracted engagements)
 - The credibility row (defipy 50K+ downloads, ETH Denver, book + courses, arXiv, PhD, ex-Syscoin)
 
 **Important caveat for the build thread:**
@@ -96,7 +96,7 @@ Defipy is Python; the Next.js site is TypeScript. When agentic features eventual
 
 ### Logo
 
-**Keep the existing mark.** The current defimind.ai logo (network-graph mandala in white-on-black, with the "defimind.ai" wordmark in lowercase humanist sans) is good. Reads as both network and cognition, asymmetric enough to have character, scales well from favicon to hero, works on light and dark backgrounds.
+**Keep the existing mark.** The current echoledger.ai logo (network-graph mandala in white-on-black, with the "echoledger.ai" wordmark in lowercase humanist sans) is good. Reads as both network and cognition, asymmetric enough to have character, scales well from favicon to hero, works on light and dark backgrounds.
 
 The build thread should treat the logo as fixed input. SVG version should be used wherever possible for crispness across resolutions.
 
@@ -136,7 +136,7 @@ The colors from the previous brand exploration (the navy → teal → green-cyan
 
 ### Reference Aesthetic
 
-The visual languages that work for practices in DeFiMind's tier — research-grade, technical, quant-flavored — tend toward:
+The visual languages that work for practices in EchoLedger's tier — research-grade, technical, quant-flavored — tend toward:
 
 - Stripe's documentation pages (calm, technical, restrained color)
 - Anthropic's marketing surfaces (monochrome with single accent, generous whitespace)
@@ -161,7 +161,7 @@ Any of the three would work. Pick one and commit; don't combine.
 
 ### What v1 includes:
 
-1. **Single-page marketing site** at defimind.ai
+1. **Single-page marketing site** at echoledger.ai
 2. **Hero** — agentic-analytics positioning, single CTA
 3. **Four SKU cards** — names, scopes, deliverables, turnarounds, prices
 4. **Methodology section** — defipy reference, GitHub link, "math is open, reports are paid" framing
@@ -169,11 +169,11 @@ Any of the three would work. Pick one and commit; don't combine.
 6. **Credibility row** — defipy 50K+, ETH Denver, book + courses, arXiv, PhD, ex-Syscoin
 7. **About section** — short operator paragraph
 8. **Contact** — email + Calendly link (no form needed for v1)
-9. **Footer** — DeFiMind Inc. line, AnchorRegistry small mention, copyright
+9. **Footer** — EchoLedger Inc. line, AnchorRegistry small mention, copyright
 
 ### What v1 routes to:
 
-- LP Audit, Pool Health → email (`contact@defimind.ai`) or Calendly link with subject pre-fill
+- LP Audit, Pool Health → email (`contact@echoledger.ai`) or Calendly link with subject pre-fill
 - Treasury Review, Agent Analytics Infrastructure → Calendly intake call
 - General contact → email
 
@@ -200,7 +200,7 @@ These are real decisions to make in the build thread, not blockers.
 
 ## Cross-Surface Binding (Important for Entity Resolution)
 
-The previous thread surfaced that DeFiMind has search and AI canonicality on the name (Google AI Mode resolves "DeFiMind" to Ian Moore specifically). This is a meaningful asset and should be reinforced by the build, not eroded.
+The previous thread surfaced that EchoLedger has search and AI canonicality on the name (Google AI Mode resolves "EchoLedger" to Ian Moore specifically). This is a meaningful asset and should be reinforced by the build, not eroded.
 
 Concretely, the v1 site should explicitly bind to:
 
@@ -210,7 +210,7 @@ Concretely, the v1 site should explicitly bind to:
 - **Zenodo:** the September 2025 whitepaper (DOI link)
 - **Medium:** Ian Moore's author page
 - **X:** @ic3moore
-- **LinkedIn:** the DeFiMind-AI company page (created with defimind.ai as website field)
+- **LinkedIn:** the EchoLedger-AI company page (created with echoledger.ai as website field)
 
 These should appear:
 - In `Schema.org` structured data as `sameAs` links on the Organization and Person entities
@@ -240,9 +240,9 @@ These are all valid future additions. Building any of them in v1 is overinvestme
 
 The build thread should pull from:
 
-1. **DeFiMind_Services_Seed.md** — the operating brief
-2. **DeFiMind_as_Defipy_Extension.md** — the positioning thesis (defipy = open math, DeFiMind = paid analysis)
-3. **DeFiMind_Services_Full_Offering_Outline.md** — the SKU specs, page-ready copy starting points, service architecture
+1. **EchoLedger_Services_Seed.md** — the operating brief
+2. **EchoLedger_as_Defipy_Extension.md** — the positioning thesis (defipy = open math, EchoLedger = paid analysis)
+3. **EchoLedger_Services_Full_Offering_Outline.md** — the SKU specs, page-ready copy starting points, service architecture
 
 This doc — the build seed — is the fourth, focused on the implementation layer.
 

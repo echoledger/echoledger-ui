@@ -41,7 +41,7 @@ export function Methodology() {
 
           <div className="space-y-5">
             <p>
-              DeFiMind analysis is powered by{" "}
+              EchoLedger analysis is powered by{" "}
               <strong className="font-medium text-[var(--color-text-primary)]">
                 defipy
               </strong>{" "}

@@ -1,21 +1,21 @@
 #!/usr/bin/env python3
 """
-Convert defimind-mark.png from "white disc on black square" to
+Convert echoledger-mark.png from "white disc on black square" to
 "white disc on transparent background" by making all pixels
 darker than a threshold transparent.
 
 Usage:
     python3 docs/process_logo.py
 
-Reads:  public/defimind-mark.png
-Writes: public/defimind-mark.png  (overwrites with transparent version)
+Reads:  public/echoledger-mark.png
+Writes: public/echoledger-mark.png  (overwrites with transparent version)
 """
 
 from pathlib import Path
 from PIL import Image
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-SRC = REPO_ROOT / "public" / "defimind-mark.png"
+SRC = REPO_ROOT / "public" / "echoledger-mark.png"
 DST = SRC  # overwrite in place
 
 # Pixels with all RGB channels at or below this value are treated as the

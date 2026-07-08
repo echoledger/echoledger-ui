@@ -9,21 +9,21 @@ import {
 } from "@/components/SectionPrimitives";
 
 export const metadata: Metadata = {
-  title: "StateTwins · DeFiMind's Uniswap Position Monitor",
+  title: "StateTwins · EchoLedger's Uniswap Position Monitor",
   description:
-    "StateTwins is DeFiMind's AI agent — it watches your Uniswap LP positions, consults DeFiMind's hosted analytics, and reports its findings. Analysis only; you make every decision. Built on the open-source defipy State Twins substrate.",
+    "StateTwins is EchoLedger's AI agent — it watches your Uniswap LP positions, consults EchoLedger's hosted analytics, and reports its findings. Analysis only; you make every decision. Built on the open-source defipy State Twins substrate.",
   alternates: { canonical: "/agent" },
   openGraph: {
     type: "website",
-    url: "https://defimind.ai/agent",
-    siteName: "DeFiMind",
-    title: "StateTwins · DeFiMind's Uniswap Position Monitor",
+    url: "https://echoledger.ai/agent",
+    siteName: "EchoLedger",
+    title: "StateTwins · EchoLedger's Uniswap Position Monitor",
     description:
-      "An AI agent that watches your Uniswap positions and reports — analysis only, you decide. Powered by DeFiMind's hosted MCP endpoint.",
+      "An AI agent that watches your Uniswap positions and reports — analysis only, you decide. Powered by EchoLedger's hosted MCP endpoint.",
   },
 };
 
-const ENDPOINT = "https://mcp.defimind.ai/mcp";
+const ENDPOINT = "https://mcp.echoledger.ai/mcp";
 
 // ─── Presentational helpers ──────────────────────────────────────────────────
 
@@ -50,12 +50,12 @@ export default function StateTwinsPage() {
           <div className="mx-auto max-w-[1100px]">
             <div className="max-w-[760px]">
               <SectionEyebrow>
-                DeFiMind&rsquo;s AI agent
+                EchoLedger&rsquo;s AI agent
               </SectionEyebrow>
               <SectionTitle>StateTwins.</SectionTitle>
               <SectionLede>
                 StateTwins watches your Uniswap liquidity positions, consults
-                DeFiMind&rsquo;s hosted analytics, and reports its findings so
+                EchoLedger&rsquo;s hosted analytics, and reports its findings so
                 you can make informed decisions. It does not trade,
                 rebalance, or move funds &mdash; you make every decision.
               </SectionLede>
@@ -73,7 +73,7 @@ export default function StateTwinsPage() {
                   Install
                 </a>
                 <a
-                  href="https://github.com/defimind-ai/defimind"
+                  href="https://github.com/echoledger-ai/echoledger"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center rounded-md border border-[var(--color-accent-deep)] bg-transparent px-6 py-3 text-[0.9375rem] font-medium text-[var(--color-text-secondary)] transition-colors hover:border-[var(--color-accent)] hover:text-[var(--color-text-primary)]"
@@ -92,7 +92,7 @@ export default function StateTwinsPage() {
             <SectionTitle>Watch. Analyze. Report.</SectionTitle>
             <SectionLede>
               On a schedule you set, StateTwins cycles through every pool in your
-              watchlist, asks DeFiMind&rsquo;s hosted tools to inspect each one,
+              watchlist, asks EchoLedger&rsquo;s hosted tools to inspect each one,
               and prints the result. Two tools run by default &mdash;{" "}
               <strong className="font-medium text-[var(--color-text-primary)]">
                 CheckPoolHealth
@@ -111,7 +111,7 @@ export default function StateTwinsPage() {
             </p>
 
             <div className="max-w-[820px]">
-              <CodeBlock>{`StateTwins is watching 1 pool(s) via https://mcp.defimind.ai/mcp
+              <CodeBlock>{`StateTwins is watching 1 pool(s) via https://mcp.echoledger.ai/mcp
 Cycle every 60s. Analysis only — StateTwins reports, you decide.
 
 [2026-06-15 19:40:25Z] USDC/WETH 0.05% (V3) — CheckPoolHealth
@@ -157,7 +157,7 @@ Cycle every 60s. Analysis only — StateTwins reports, you decide.
             <SectionLede>
               StateTwins ships as the{" "}
               <span className="font-mono text-[var(--color-text-primary)]">
-                defimind
+                echoledger
               </span>{" "}
               Python package. Install, point it at your pools, run. The hosted
               endpoint is authless &mdash; no account, no API key, no wallet
@@ -171,14 +171,14 @@ Cycle every 60s. Analysis only — StateTwins reports, you decide.
                   1. Install the package
                 </h3>
                 <div className="max-w-[640px]">
-                  <CodeBlock>{`git clone https://github.com/defimind-ai/defimind.git
-cd defimind
+                  <CodeBlock>{`git clone https://github.com/echoledger-ai/echoledger.git
+cd echoledger
 python -m venv .venv && source .venv/bin/activate
 pip install .`}</CodeBlock>
                 </div>
                 <p className="mt-3 max-w-[68ch] text-[0.875rem] leading-[1.6] text-[var(--color-text-muted)]">
                   Requires Python 3.11+. Installing the package puts a{" "}
-                  <span className="font-mono">defimind</span> command on your
+                  <span className="font-mono">echoledger</span> command on your
                   PATH.
                 </p>
               </div>
@@ -196,7 +196,7 @@ pip install .`}</CodeBlock>
                 </p>
                 <div className="mt-3 max-w-[640px]">
                   <CodeBlock>{`rpc_url = "https://your-rpc-provider.example/v2/<key>"
-endpoint = "https://mcp.defimind.ai/mcp"
+endpoint = "https://mcp.echoledger.ai/mcp"
 poll_interval_seconds = 60
 
 [[pools]]
@@ -217,7 +217,7 @@ chain_id = 1`}</CodeBlock>
                   3. Run it
                 </h3>
                 <div className="max-w-[640px]">
-                  <CodeBlock>defimind</CodeBlock>
+                  <CodeBlock>echoledger</CodeBlock>
                 </div>
                 <p className="mt-3 max-w-[68ch] text-[0.875rem] leading-[1.6] text-[var(--color-text-muted)]">
                   StateTwins prints its intro line, runs a cycle, sleeps for{" "}
@@ -233,7 +233,7 @@ chain_id = 1`}</CodeBlock>
           Under the hood — the call-flow ASCII + three property cards.
           State Twins was previously a fourth card here; it's been promoted to
           its own section ("Substrate" / "The State Twin.") immediately below,
-          since it's the fulcrum behind defipy and DeFiMind and earned dedicated
+          since it's the fulcrum behind defipy and EchoLedger and earned dedicated
           surface area. The remaining three properties read tighter at 3-col.
         */}
         <section className="border-t border-[rgb(58_106_120/0.2)] px-8 py-20">
@@ -243,7 +243,7 @@ chain_id = 1`}</CodeBlock>
             <SectionLede>
               The{" "}
               <span className="font-mono text-[var(--color-text-primary)]">
-                defimind
+                echoledger
               </span>{" "}
               package holds the loop. The hosted MCP endpoint does the chain
               reads and the AMM math. The math itself is open-source. Three
@@ -251,11 +251,11 @@ chain_id = 1`}</CodeBlock>
             </SectionLede>
 
             <div className="max-w-[820px]">
-              <CodeBlock>{`  StateTwins (defimind package)      DeFiMind endpoint               substrate
+              <CodeBlock>{`  StateTwins (echoledger package)      EchoLedger endpoint               substrate
   ─────────────────────────────      ─────────────────               ─────────
   read config.toml
   for each pool, each cycle:
-    call a tool  ──────────────────▶ mcp.defimind.ai/mcp
+    call a tool  ──────────────────▶ mcp.echoledger.ai/mcp
                                      reads chain via your RPC  ────▶  defipy
                                      runs the analysis               State Twins
     receive result  ◀──────────────  returns a typed result
@@ -488,12 +488,12 @@ chain_id = 1`}</CodeBlock>
             <SectionTitle>Open math. Open source. Open paper.</SectionTitle>
             <div className="mt-8 flex flex-wrap gap-x-7 gap-y-3">
               <a
-                href="https://github.com/defimind-ai/defimind"
+                href="https://github.com/echoledger-ai/echoledger"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-b border-[rgb(93_168_160/0.3)] pb-px text-[0.9375rem] font-medium text-[var(--color-accent)] transition-colors hover:border-[var(--color-accent)]"
               >
-                Source: defimind (GitHub) &rarr;
+                Source: echoledger (GitHub) &rarr;
               </a>
               <a
                 href={ENDPOINT}

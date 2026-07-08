@@ -1,4 +1,4 @@
-# DeFiMind Services — Full Offering Outline
+# EchoLedger Services — Full Offering Outline
 
 *Complete service architecture: SKU specs, page-ready copy, and end-to-end workflow.*
 
@@ -71,7 +71,7 @@
 - Governance context: any prior treasury policy, risk mandate, or active proposals
 - Publication preference: forum-ready markdown + PDF, or PDF only
 
-**Deliverable:** 20–35 page PDF + forum-formatted markdown export, branded DeFiMind, citable methodology section
+**Deliverable:** 20–35 page PDF + forum-formatted markdown export, branded EchoLedger, citable methodology section
 
 **Turnaround:** 2–3 weeks from kickoff call
 
@@ -120,7 +120,7 @@
 
 **One-line scope:** Strategic and quantitative advisory for teams building, deploying, or evaluating agentic systems that interact with DeFi.
 
-**Why this SKU now:** Agentic DeFi is the convergence corridor between DeFiMind Services and AnchorRegistry. Teams shipping agents that execute on-chain need someone who understands both the AMM math (defipy) and the trust/provenance problem (AnchorRegistry paper). Few people are credibly positioned to advise on both. Spec'd now to capture demand as it appears, even if marketing stays quiet.
+**Why this SKU now:** Agentic DeFi is the convergence corridor between EchoLedger Services and AnchorRegistry. Teams shipping agents that execute on-chain need someone who understands both the AMM math (defipy) and the trust/provenance problem (AnchorRegistry paper). Few people are credibly positioned to advise on both. Spec'd now to capture demand as it appears, even if marketing stays quiet.
 
 **Three engagement modes:**
 
@@ -152,19 +152,19 @@
 
 **Out of scope:**
 - Writing production agent code (advisory, not implementation)
-- Direct integration of AnchorRegistry into the buyer's stack — that's an AR conversation, not a DeFiMind one
+- Direct integration of AnchorRegistry into the buyer's stack — that's an AR conversation, not a EchoLedger one
 - Regulatory or legal positioning of the agent
 - Front-end or UX of agent products
 
 **Buyer profile:** Teams building autonomous LP managers, vault strategies with agentic rebalancing, agent-driven yield products, or research groups studying agentic DeFi behavior.
 
-**Brand hygiene flag:** The seed is explicit that AR conversations and DeFiMind sales channels stay separate. This SKU sits inside DeFiMind. If a 4a/4b engagement uncovers genuine demand for AR integration, that conversation gets handed to the AR side cleanly — it's not bundled into the DeFiMind invoice.
+**Brand hygiene flag:** The seed is explicit that AR conversations and EchoLedger sales channels stay separate. This SKU sits inside EchoLedger. If a 4a/4b engagement uncovers genuine demand for AR integration, that conversation gets handed to the AR side cleanly — it's not bundled into the EchoLedger invoice.
 
 ---
 
 ## Layer 2 — Page-Ready Offering Copy
 
-What goes on defimind.ai under each SKU. Tone: flat, credentialed, no hype. Numbers visible. Buyer can self-qualify.
+What goes on echoledger.ai under each SKU. Tone: flat, credentialed, no hype. Numbers visible. Buyer can self-qualify.
 
 ---
 
@@ -222,7 +222,7 @@ Strategy engagements, monthly retainers, and hourly consultation for teams shipp
 
 The math is open. The reports are paid.
 
-DeFiMind analysis is powered by **defipy**, our open-source DeFi analytics library — 50,000+ downloads, full coverage of Uniswap V2/V3, Balancer, and Curve. Buyers pay for the analysis, the report, and the operator behind both. The methodology is verifiable.
+EchoLedger analysis is powered by **defipy**, our open-source DeFi analytics library — 50,000+ downloads, full coverage of Uniswap V2/V3, Balancer, and Curve. Buyers pay for the analysis, the report, and the operator behind both. The methodology is verifiable.
 
 [GitHub: defipydevs](https://github.com/defipydevs) · [Sample report (PDF)]
 
@@ -235,8 +235,8 @@ The end-to-end workflow: how a buyer enters, gets scoped, gets delivered, and ex
 ### Stage 1 — Inbound
 
 **Channels:**
-- defimind.ai SKU CTAs (primary)
-- Direct email to contact@defimind.ai
+- echoledger.ai SKU CTAs (primary)
+- Direct email to contact@echoledger.ai
 - Inbound from weekly public analysis cadence (X / future content)
 - Warm intros (defipy users, book readers, course students, Syscoin/ETH Denver network)
 
@@ -293,15 +293,15 @@ The end-to-end workflow: how a buyer enters, gets scoped, gets delivered, and ex
 
 ### Stage 6 — Pipeline & Compounding
 
-- Anonymized case study added to defimind.ai sample library after each completed engagement (with permission)
+- Anonymized case study added to echoledger.ai sample library after each completed engagement (with permission)
 - Methodology refinements pushed back into defipy where appropriate (this is a flywheel — engagement work strengthens the open-source library, which strengthens the practice)
 - After 3–5 engagements: reprice all SKUs to target tier
 - After ~10 engagements: evaluate productizing recurring patterns (e.g., quarterly treasury monitoring as a retainer)
 
 ### Cross-Cutting Operational Notes
 
-- **All invoicing under DeFiMind Inc.** Stripe and bank account configured to corporate entity, not personal. Footer of every PDF: *"DeFiMind Inc. · contact@defimind.ai"*
-- **AR firewall:** Engagements that surface genuine AR-relevant questions are handled cleanly — DeFiMind delivers the contracted scope, AR conversation is offered separately if appropriate, never bundled into the same invoice.
+- **All invoicing under EchoLedger Inc.** Stripe and bank account configured to corporate entity, not personal. Footer of every PDF: *"EchoLedger Inc. · contact@echoledger.ai"*
+- **AR firewall:** Engagements that surface genuine AR-relevant questions are handled cleanly — EchoLedger delivers the contracted scope, AR conversation is offered separately if appropriate, never bundled into the same invoice.
 - **Capacity ceiling at sole-operator scale:** Realistic monthly throughput is roughly 4–6 LP Audits + 1 Treasury Review + 2–3 Pool Health, OR one significant Advisory engagement displacing some of the above. When inbound exceeds capacity, the lever is price (raise it), not throughput (don't dilute quality).
 
 ---

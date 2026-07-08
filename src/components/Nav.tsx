@@ -42,19 +42,19 @@ export function Nav() {
         <Link
           href="/"
           onClick={handleLogoClick}
-          aria-label="DeFiMind home"
+          aria-label="EchoLedger home"
           className="flex items-center gap-4 text-[1.5rem] font-medium tracking-tight text-[var(--color-text-primary)]"
         >
           <Image
-            src="/defimind-mark.png"
-            alt="DeFiMind"
+            src="/echoledger-mark.png"
+            alt="EchoLedger"
             width={128}
             height={128}
             priority
             className="h-20 w-20 shrink-0"
           />
           <span>
-            defimind<span className="text-[var(--color-accent)]">.</span>ai
+            echoledger<span className="text-[var(--color-accent)]">.</span>ai
           </span>
         </Link>
         <ul className="flex gap-8 text-sm text-[var(--color-text-secondary)]">

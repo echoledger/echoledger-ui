@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://defimind.ai";
+const BASE_URL = "https://echoledger.ai";
 
 // Single-page site for v1 — only the root URL is canonically indexable.
 // As content surfaces are added (sample report PDF, /case-studies, /writing,

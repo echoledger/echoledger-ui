@@ -70,7 +70,7 @@ export function Research() {
         <SectionLede>
           Preprints on the math behind on-chain registries, provenance, agentic
           DeFi substrates, and gas-cost dynamics &mdash; published since 2021.
-          The methodology in DeFiMind engagements draws from this work; the
+          The methodology in EchoLedger engagements draws from this work; the
           work draws from the engagements.
         </SectionLede>
 

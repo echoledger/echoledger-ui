@@ -20,14 +20,14 @@ export function Contact() {
               LP Audits &amp; Pool Health
             </h3>
             <p className="mb-6 text-[0.9375rem] leading-[1.6] text-[var(--color-text-secondary)]">
-              Email imoore@defimind.ai with the position or pool address and
+              Email imoore@echoledger.ai with the position or pool address and
               your inputs. Reply within 24 hours.
             </p>
             <a
-              href="mailto:imoore@defimind.ai"
+              href="mailto:imoore@echoledger.ai"
               className="border-b border-[rgb(93_168_160/0.3)] pb-px text-[0.9375rem] font-medium text-[var(--color-accent)] transition-colors hover:border-[var(--color-accent)]"
             >
-              imoore@defimind.ai &rarr;
+              imoore@echoledger.ai &rarr;
             </a>
           </div>
 
@@ -40,7 +40,7 @@ export function Contact() {
               timeline, and price before any commitment.
             </p>
             <a
-              href="https://calendly.com/imoore-defimind"
+              href="https://calendly.com/imoore-echoledger"
               target="_blank"
               rel="noopener noreferrer"
               className="border-b border-[rgb(93_168_160/0.3)] pb-px text-[0.9375rem] font-medium text-[var(--color-accent)] transition-colors hover:border-[var(--color-accent)]"
@@ -66,7 +66,7 @@ export function Contact() {
             2. Contact — present here on the homepage where humans look
             3. JSON-LD — structured data signal for search and AI
 
-          "DeFiMind" is the FIRST LINE of the <address> block — required by
+          "EchoLedger" is the FIRST LINE of the <address> block — required by
           the virtual mail service (return-to-sender if the recipient name
           is missing). The label "Mailing address:" is the parsable adjacent
           context that helps crawlers recognize what this address represents.
@@ -78,7 +78,7 @@ export function Contact() {
             </div>
             <address className="not-italic">
               <strong className="font-medium text-[var(--color-text-primary)]">
-                DeFiMind
+                EchoLedger
               </strong>
               <br />
               4949 Canoe Pass Way, Suite 1008

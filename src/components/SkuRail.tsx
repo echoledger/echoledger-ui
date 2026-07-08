@@ -72,7 +72,7 @@ export function SkuRail() {
         <SectionLede>
           Productized services are fixed-price and fixed-scope. Custom
           engagements are scoped on a discovery call. All engagements
-          contracted through DeFiMind Inc.
+          contracted through EchoLedger Inc.
         </SectionLede>
 
         {/* Row 1: three productized SKUs */}

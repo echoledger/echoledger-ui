@@ -14,14 +14,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://defimind.ai"),
+  metadataBase: new URL("https://echoledger.ai"),
   title: {
-    default: "DeFiMind — Quantitative DeFi analysis, productized",
-    template: "%s — DeFiMind",
+    default: "EchoLedger — Quantitative DeFi analysis, productized",
+    template: "%s — EchoLedger",
   },
   description:
     "PhD-grade liquidity-position analysis powered by defipy. Fixed-price reports, operator sign-off, methodology you can verify. LP audits, DAO treasury reviews, pool health assessments.",
-  applicationName: "DeFiMind",
+  applicationName: "EchoLedger",
   keywords: [
     "DeFi analysis",
     "liquidity position audit",
@@ -32,14 +32,14 @@ export const metadata: Metadata = {
     "defipy",
     "quantitative DeFi",
   ],
-  authors: [{ name: "Ian Moore", url: "https://defimind.ai" }],
+  authors: [{ name: "Ian Moore", url: "https://echoledger.ai" }],
   creator: "Ian Moore",
-  publisher: "DeFiMind Inc.",
+  publisher: "EchoLedger Inc.",
   openGraph: {
     type: "website",
-    url: "https://defimind.ai",
-    siteName: "DeFiMind",
-    title: "DeFiMind — Quantitative DeFi analysis, productized",
+    url: "https://echoledger.ai",
+    siteName: "EchoLedger",
+    title: "EchoLedger — Quantitative DeFi analysis, productized",
     description:
       "PhD-grade liquidity-position analysis powered by defipy. Fixed-price reports, operator sign-off, methodology you can verify.",
   },
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@ic3moore",
     creator: "@ic3moore",
-    title: "DeFiMind — Quantitative DeFi analysis, productized",
+    title: "EchoLedger — Quantitative DeFi analysis, productized",
     description:
       "PhD-grade liquidity-position analysis powered by defipy. Fixed-price reports, operator sign-off, methodology you can verify.",
   },
@@ -60,31 +60,44 @@ export const metadata: Metadata = {
 // Schema.org JSON-LD for entity resolution and AI canonicality.
 // Binds the domain, the company, and the operator together with sameAs links
 // across all of the operator's public surfaces.
+//
+// The PostalAddress on the Organization is the canonical business address
+// signal — search engines and AI systems treat this as the authoritative
+// answer to "where is this company located?" The same address is presented
+// visibly in the site Footer; the two reinforce each other.
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://defimind.ai/#organization",
-      name: "DeFiMind",
-      legalName: "DeFiMind Inc.",
-      url: "https://defimind.ai",
-      email: "imoore@defimind.ai",
+      "@id": "https://echoledger.ai/#organization",
+      name: "EchoLedger",
+      legalName: "EchoLedger Inc.",
+      url: "https://echoledger.ai",
+      email: "imoore@echoledger.ai",
       description:
         "Productized quantitative DeFi analysis practice. LP audits, DAO treasury reviews, pool health assessments. Methodology powered by defipy.",
-      founder: { "@id": "https://defimind.ai/#person" },
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "4949 Canoe Pass Way, Suite 1008",
+        addressLocality: "Tsawwassen",
+        addressRegion: "BC",
+        postalCode: "V4M 0B2",
+        addressCountry: "CA",
+      },
+      founder: { "@id": "https://echoledger.ai/#person" },
       sameAs: [
         "https://github.com/defipy-devs",
         "https://defipy.org",
-        "https://www.linkedin.com/company/defimind-ai",
+        "https://www.linkedin.com/company/echoledger-ai",
       ],
     },
     {
       "@type": "Person",
-      "@id": "https://defimind.ai/#person",
+      "@id": "https://echoledger.ai/#person",
       name: "Ian Moore",
-      jobTitle: "Founder, DeFiMind",
-      affiliation: { "@id": "https://defimind.ai/#organization" },
+      jobTitle: "Founder, EchoLedger",
+      affiliation: { "@id": "https://echoledger.ai/#organization" },
       sameAs: [
         "https://github.com/defipy-devs",
         "https://defipy.org",

@@ -10,19 +10,19 @@ import {
 export const metadata: Metadata = {
   title: "MCP Endpoint",
   description:
-    "API reference for the DeFiMind MCP endpoint — eleven live tools over Uniswap V2/V3, Balancer, and Curve stableswap pools, plus a portable State Twin builder, over the Model Context Protocol. Authless, bring-your-own-RPC, powered by open-source defipy.",
+    "API reference for the EchoLedger MCP endpoint — eleven live tools over Uniswap V2/V3, Balancer, and Curve stableswap pools, plus a portable State Twin builder, over the Model Context Protocol. Authless, bring-your-own-RPC, powered by open-source defipy.",
   alternates: { canonical: "/mcp" },
   openGraph: {
     type: "website",
-    url: "https://defimind.ai/mcp",
-    siteName: "DeFiMind",
-    title: "MCP Endpoint — DeFiMind",
+    url: "https://echoledger.ai/mcp",
+    siteName: "EchoLedger",
+    title: "MCP Endpoint — EchoLedger",
     description:
-      "API reference for the DeFiMind MCP endpoint — eleven live tools over Uniswap V2/V3, Balancer, and Curve stableswap pools, plus a portable State Twin builder. Authless, bring-your-own-RPC.",
+      "API reference for the EchoLedger MCP endpoint — eleven live tools over Uniswap V2/V3, Balancer, and Curve stableswap pools, plus a portable State Twin builder. Authless, bring-your-own-RPC.",
   },
 };
 
-const ENDPOINT = "https://mcp.defimind.ai/mcp";
+const ENDPOINT = "https://mcp.echoledger.ai/mcp";
 
 // ─── Reference data ──────────────────────────────────────────────────────────
 
@@ -287,9 +287,9 @@ const errors: { code: string; note: string }[] = [
 ];
 
 const links: { label: string; href: string }[] = [
-  { label: "Official MCP Registry", href: "https://registry.modelcontextprotocol.io/?search=defimind" },
-  { label: "Smithery", href: "https://smithery.ai/servers/ic3moore/defimind" },
-  { label: "Source (GitHub)", href: "https://github.com/defimind-ai/defimind-mcp" },
+  { label: "Official MCP Registry", href: "https://registry.modelcontextprotocol.io/?search=echoledger" },
+  { label: "Smithery", href: "https://smithery.ai/servers/ic3moore/echoledger" },
+  { label: "Source (GitHub)", href: "https://github.com/echoledger-ai/echoledger-mcp" },
   { label: "defipy.org", href: "https://defipy.org" },
   { label: "State Twins paper", href: "https://arxiv.org/abs/2605.11522" },
 ];
@@ -343,7 +343,7 @@ export default function McpPage() {
         <section className="px-8 pb-14 pt-36">
           <div className="mx-auto max-w-[1100px]">
             <SectionEyebrow>MCP Endpoint</SectionEyebrow>
-            <SectionTitle>DeFiMind, inside your AI client.</SectionTitle>
+            <SectionTitle>EchoLedger, inside your AI client.</SectionTitle>
             <SectionLede>
               A Model Context Protocol endpoint exposing eleven live tools over
               Uniswap V2/V3, Balancer weighted, and Curve stableswap pools
@@ -394,7 +394,7 @@ export default function McpPage() {
                 <h3 className="mb-3 text-base font-medium text-[var(--color-text-primary)]">
                   Claude Code
                 </h3>
-                <CodeBlock>{`claude mcp add --transport http defimind ${ENDPOINT}`}</CodeBlock>
+                <CodeBlock>{`claude mcp add --transport http echoledger ${ENDPOINT}`}</CodeBlock>
               </div>
               <div>
                 <h3 className="mb-3 text-base font-medium text-[var(--color-text-primary)]">
@@ -411,7 +411,7 @@ export default function McpPage() {
                 </h3>
                 <p className="text-[0.9375rem] leading-[1.65] text-[var(--color-text-secondary)]">
                   Settings &rarr; MCP &rarr; Add new MCP server. Name{" "}
-                  <span className="font-mono text-[var(--color-text-primary)]">defimind</span>,
+                  <span className="font-mono text-[var(--color-text-primary)]">echoledger</span>,
                   type <span className="font-mono text-[var(--color-text-primary)]">http</span>,
                   URL the endpoint above.
                 </p>
@@ -538,7 +538,7 @@ export default function McpPage() {
               zero further RPC &mdash; build once, run N. Full reference, including
               the twin round-trip:{" "}
               <a
-                href="https://github.com/defimind-ai/defimind-mcp/blob/main/docs/TOOLS.md"
+                href="https://github.com/echoledger-ai/echoledger-mcp/blob/main/docs/TOOLS.md"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-b border-[rgb(93_168_160/0.3)] text-[var(--color-accent)] transition-colors hover:border-[var(--color-accent)]"
@@ -653,7 +653,7 @@ export default function McpPage() {
                   defipy
                 </a>{" "}
                 library and its State Twin substrate &mdash; the same methodology
-                behind DeFiMind&rsquo;s paid reports. The library is open and
+                behind EchoLedger&rsquo;s paid reports. The library is open and
                 verifiable; this endpoint is the free, self-serve surface.
               </p>
             </div>

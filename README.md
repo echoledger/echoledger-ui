@@ -1,8 +1,8 @@
-# defimind-ui
+# echoledger-ui
 
-Marketing site for [DeFiMind](https://defimind.ai) — a productized quantitative DeFi analysis practice.
+Marketing site for [EchoLedger](https://echoledger.ai) — a productized quantitative DeFi analysis practice.
 
-Three fixed-price services: LP position audits, DAO treasury reviews, and pool health & rug risk assessments. Methodology powered by [defipy](https://defipy.org), the open-source AMM analytics library (50,000+ downloads). Engagements contracted through DeFiMind Inc.
+Three fixed-price services: LP position audits, DAO treasury reviews, and pool health & rug risk assessments. Methodology powered by [defipy](https://defipy.org), the open-source AMM analytics library (50,000+ downloads). Engagements contracted through EchoLedger Inc.
 
 ## Stack
 
@@ -67,7 +67,7 @@ Defined in `src/app/globals.css` under `@theme`:
 
 The full positioning, offering structure, and build seed live in [`docs/`](./docs):
 
-- `DeFiMind_Services_Seed.md` — operating brief
-- `DeFiMind_as_Defipy_Extension.md` — positioning thesis (open math, paid analysis)
-- `DeFiMind_Services_Full_Offering_Outline.md` — SKU specs and service architecture
-- `DeFiMind_Build_Seed.md` — implementation-layer decisions
+- `EchoLedger_Services_Seed.md` — operating brief
+- `EchoLedger_as_Defipy_Extension.md` — positioning thesis (open math, paid analysis)
+- `EchoLedger_Services_Full_Offering_Outline.md` — SKU specs and service architecture
+- `EchoLedger_Build_Seed.md` — implementation-layer decisions

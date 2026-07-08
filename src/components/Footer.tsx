@@ -4,7 +4,7 @@ const links = [
   { label: "arXiv", href: "https://arxiv.org/abs/2605.11522" },
   { label: "Medium", href: "https://medium.com/@ic3moore" },
   { label: "X", href: "https://x.com/ic3moore" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/company/defimind-ai" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/company/echoledger-ai" },
 ];
 
 export function Footer() {
@@ -32,7 +32,7 @@ export function Footer() {
 
             Uses the semantic <address> element so crawlers, screen readers,
             and AI systems recognize this as the organization's contact info.
-            "DeFiMind" is the FIRST LINE of the address — this is required so
+            "EchoLedger" is the FIRST LINE of the address — this is required so
             the block is shippable as-is: the virtual mail service rejects
             (return-to-sender) any parcel that doesn't carry the registered
             business name on the label, and most copy-pasters will grab the
@@ -44,7 +44,7 @@ export function Footer() {
             The same address is asserted as structured data in the root
             layout's JSON-LD Organization → PostalAddress, which is the
             strongest signal to search and AI systems for canonical business
-            location. Organization.name = "DeFiMind" in the JSON-LD links the
+            location. Organization.name = "EchoLedger" in the JSON-LD links the
             recipient identity to this PostalAddress.
 
             `not-italic` overrides the default italic styling of <address>.
@@ -55,7 +55,7 @@ export function Footer() {
             </div>
             <address className="not-italic">
               <strong className="font-medium text-[var(--color-text-secondary)]">
-                DeFiMind
+                EchoLedger
               </strong>
               <br />
               4949 Canoe Pass Way, Suite 1008
@@ -65,10 +65,10 @@ export function Footer() {
               Canada
               <br />
               <a
-                href="mailto:imoore@defimind.ai"
+                href="mailto:imoore@echoledger.ai"
                 className="border-b border-[rgb(107_117_144/0.3)] text-[var(--color-text-secondary)]"
               >
-                imoore@defimind.ai
+                imoore@echoledger.ai
               </a>
             </address>
           </div>
@@ -87,7 +87,7 @@ export function Footer() {
             </a>
           </p>
           <p className="pt-4 text-xs text-[var(--color-text-muted)]">
-            &copy; 2026 DeFiMind Inc.
+            &copy; 2026 EchoLedger Inc.
           </p>
         </div>
       </div>

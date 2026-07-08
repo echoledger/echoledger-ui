@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme inline {
-  /* DeFiMind palette — backgrounds & surfaces */
+  /* EchoLedger palette — backgrounds & surfaces */
   --color-bg-base: #0A0E1A;
   --color-bg-elevated: #141A2C;
   --color-bg-deep: #1F2742;
