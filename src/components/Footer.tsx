@@ -4,7 +4,7 @@ const links = [
   { label: "arXiv", href: "https://arxiv.org/abs/2605.11522" },
   { label: "Medium", href: "https://medium.com/@ic3moore" },
   { label: "X", href: "https://x.com/ic3moore" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/company/echoledger-ai" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/company/echoledger" },
 ];
 
 export function Footer() {

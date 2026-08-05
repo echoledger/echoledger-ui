@@ -81,7 +81,7 @@ const jsonLd = {
       sameAs: [
         "https://github.com/defipy-devs",
         "https://defipy.org",
-        "https://www.linkedin.com/company/echoledger-ai",
+        "https://www.linkedin.com/company/echoledger",
       ],
     },
     {

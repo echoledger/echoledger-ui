@@ -73,7 +73,7 @@ export default function StateTwinsPage() {
                   Install
                 </a>
                 <a
-                  href="https://github.com/echoledger-ai/echoledger"
+                  href="https://github.com/echoledger/echoledger"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center rounded-md border border-[var(--color-accent-deep)] bg-transparent px-6 py-3 text-[0.9375rem] font-medium text-[var(--color-text-secondary)] transition-colors hover:border-[var(--color-accent)] hover:text-[var(--color-text-primary)]"
@@ -171,7 +171,7 @@ Cycle every 60s. Analysis only — StateTwins reports, you decide.
                   1. Install the package
                 </h3>
                 <div className="max-w-[640px]">
-                  <CodeBlock>{`git clone https://github.com/echoledger-ai/echoledger.git
+                  <CodeBlock>{`git clone https://github.com/echoledger/echoledger.git
 cd echoledger
 python -m venv .venv && source .venv/bin/activate
 pip install .`}</CodeBlock>
@@ -488,7 +488,7 @@ chain_id = 1`}</CodeBlock>
             <SectionTitle>Open math. Open source. Open paper.</SectionTitle>
             <div className="mt-8 flex flex-wrap gap-x-7 gap-y-3">
               <a
-                href="https://github.com/echoledger-ai/echoledger"
+                href="https://github.com/echoledger/echoledger"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-b border-[rgb(93_168_160/0.3)] pb-px text-[0.9375rem] font-medium text-[var(--color-accent)] transition-colors hover:border-[var(--color-accent)]"

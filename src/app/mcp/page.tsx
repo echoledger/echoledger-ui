@@ -289,7 +289,7 @@ const errors: { code: string; note: string }[] = [
 const links: { label: string; href: string }[] = [
   { label: "Official MCP Registry", href: "https://registry.modelcontextprotocol.io/?search=echoledger" },
   { label: "Smithery", href: "https://smithery.ai/servers/ic3moore/echoledger" },
-  { label: "Source (GitHub)", href: "https://github.com/echoledger-ai/echoledger-mcp" },
+  { label: "Source (GitHub)", href: "https://github.com/echoledger/echoledger-mcp" },
   { label: "defipy.org", href: "https://defipy.org" },
   { label: "State Twins paper", href: "https://arxiv.org/abs/2605.11522" },
 ];
@@ -538,7 +538,7 @@ export default function McpPage() {
               zero further RPC &mdash; build once, run N. Full reference, including
               the twin round-trip:{" "}
               <a
-                href="https://github.com/echoledger-ai/echoledger-mcp/blob/main/docs/TOOLS.md"
+                href="https://github.com/echoledger/echoledger-mcp/blob/main/docs/TOOLS.md"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-b border-[rgb(93_168_160/0.3)] text-[var(--color-accent)] transition-colors hover:border-[var(--color-accent)]"
