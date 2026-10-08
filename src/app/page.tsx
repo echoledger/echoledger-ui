@@ -1,4 +1,3 @@
-import { About } from "@/components/About";
 import { Contact } from "@/components/Contact";
 import { Credibility } from "@/components/Credibility";
 import { Footer } from "@/components/Footer";
@@ -18,7 +17,6 @@ export default function Home() {
         <Credibility />
         <Methodology />
         <Research />
-        <About />
         <WhatsNext />
         <Contact />
       </main>
