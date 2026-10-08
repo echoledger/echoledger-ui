@@ -2,7 +2,7 @@
 
 Site for [EchoLedger](https://echoledger.ai) — a quantitative DeFi research practice.
 
-Client services (LP audits, treasury reviews, pool health assessments) are **paused** as of 2026-10-08; the previous services site is preserved at tag/branch `archive/services-v1`. The site now presents the open-source [defipy](https://defipy.org) library (55,000+ downloads), the hosted MCP endpoint (`/mcp`) and the StateTwins agent (`/agent`).
+The site presents the open-source [defipy](https://defipy.org) library (55,000+ downloads), the hosted MCP endpoint (`/mcp`) and the StateTwins agent (`/agent`).
 
 ## Stack
 
@@ -35,9 +35,7 @@ src/
     Nav.tsx
     Hero.tsx
     Credibility.tsx
-    ServicesNotice.tsx  # "Client services are paused" notice
     Methodology.tsx
-    About.tsx
     WhatsNext.tsx
     Contact.tsx
     Footer.tsx

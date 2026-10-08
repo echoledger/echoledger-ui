@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 // Nav reading order, left → right:
 //   Method / Research             ─ the practice's positioning
 //   MCP / Agent                   ─ the technical surfaces buyers/builders use
-//   About / Contact               ─ who's behind it, how to reach them
+//   Contact                       ─ how to reach them
 //
 // In-page sections live on the home route. Links are written as `/#id` so they
 // work from any page: on `/` they scroll to the section; on a sub-page (e.g.
@@ -19,7 +19,6 @@ const sectionLinks = [
   { label: "Research", href: "/#research" },
   { label: "MCP", href: "/mcp" },
   { label: "Agent", href: "/agent" },
-  { label: "About", href: "/#about" },
   { label: "Contact", href: "/#contact" },
 ];
 

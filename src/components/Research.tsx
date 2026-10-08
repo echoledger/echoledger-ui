@@ -70,8 +70,8 @@ export function Research() {
         <SectionLede>
           Preprints on the math behind on-chain registries, provenance, agentic
           DeFi substrates, and gas-cost dynamics &mdash; published since 2021.
-          The methodology in EchoLedger engagements draws from this work; the
-          work draws from the engagements.
+          The methodology behind EchoLedger&rsquo;s analytics draws from this
+          work.
         </SectionLede>
 
         <ul className="mt-12 grid list-none gap-5 md:grid-cols-2">
