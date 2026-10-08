@@ -35,7 +35,6 @@ src/
     Nav.tsx
     Hero.tsx
     Credibility.tsx
-    ServicesNotice.tsx  # "Client services are paused" notice
     Methodology.tsx
     About.tsx
     WhatsNext.tsx
