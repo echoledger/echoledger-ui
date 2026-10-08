@@ -300,8 +300,7 @@ chain_id = 1`}</CodeBlock>
                   >
                     defipy
                   </a>{" "}
-                  library &mdash; open, peer-style researched, verifiable. The
-                  math is open; the reports are paid.
+                  library &mdash; open, peer-style researched, verifiable.
                 </p>
               </div>
             </div>

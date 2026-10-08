@@ -635,7 +635,7 @@ export default function McpPage() {
         <section id="how" className="border-t border-[rgb(58_106_120/0.2)] px-8 py-20">
           <div className="mx-auto max-w-[1100px]">
             <SectionEyebrow>How it works</SectionEyebrow>
-            <SectionTitle>The math is open. The reports are paid.</SectionTitle>
+            <SectionTitle>The math is open.</SectionTitle>
             <div className="max-w-[68ch] space-y-5 text-base leading-[1.75] text-[var(--color-text-secondary)]">
               <p>
                 Each call reads live Uniswap V2/V3 pool state through your RPC,
@@ -653,8 +653,7 @@ export default function McpPage() {
                   defipy
                 </a>{" "}
                 library and its State Twin substrate &mdash; the same methodology
-                behind EchoLedger&rsquo;s paid reports. The library is open and
-                verifiable; this endpoint is the free, self-serve surface.
+                behind EchoLedger&rsquo;s analysis. The library is open and verifiable, and this endpoint is a free, self-serve surface.
               </p>
             </div>
             <div className="mt-10 flex flex-wrap gap-x-7 gap-y-3">

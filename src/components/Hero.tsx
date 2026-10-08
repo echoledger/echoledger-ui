@@ -5,32 +5,30 @@ export function Hero() {
     <section className="px-8 pb-28 pt-36">
       <div className="mx-auto max-w-[1100px]">
         <h1 className="mb-7 max-w-[18ch] text-[clamp(2.5rem,5.5vw,4rem)] font-medium leading-[1.1] tracking-[-0.025em] text-[var(--color-text-primary)]">
-          Quantitative DeFi analysis, productized.
+          Quantitative DeFi analysis, open by design.
         </h1>
         <p className="mb-10 max-w-[55ch] text-lg leading-[1.6] text-[var(--color-text-secondary)]">
           PhD-grade liquidity-position analysis powered by defipy &mdash; our
-          open-source AMM analytics library with 55,000+ downloads. Fixed-price
-          reports. Operator sign-off. Methodology you can verify.
+          open-source AMM analytics library with 55,000+ downloads. Open methodology you can verify.
         </p>
         <div className="flex flex-wrap gap-3.5">
-          <a
-            href="#contact"
+          <Link
+            href="/mcp"
             className="inline-flex items-center justify-center rounded-md bg-[var(--color-accent)] px-6 py-3 text-[0.9375rem] font-medium text-[var(--color-bg-base)] transition-colors hover:bg-[var(--color-accent-hover)]"
           >
-            Request an audit
-          </a>
-          <a
-            href="#services"
+            Try the MCP endpoint
+          </Link>
+          <Link
+            href="/agent"
             className="inline-flex items-center justify-center rounded-md border border-[var(--color-accent-deep)] bg-transparent px-6 py-3 text-[0.9375rem] font-medium text-[var(--color-text-secondary)] transition-colors hover:border-[var(--color-accent)] hover:text-[var(--color-text-primary)]"
           >
-            See services
-          </a>
+            See the agent
+          </Link>
         </div>
 
         {/*
-          Technical surfaces — the free, self-serve side of "the math is open,
-          the reports are paid." Two compact tiles, secondary to the audit
-          CTAs above.
+          Technical surfaces — the free, self-serve side of "the math is open."
+          Two compact tiles, secondary to the CTAs above.
 
           Layout: ALWAYS side-by-side (flex-row) regardless of viewport.
           Each tile takes an equal share of the row via flex-1. Total

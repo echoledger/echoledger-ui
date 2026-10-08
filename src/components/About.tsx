@@ -26,11 +26,7 @@ export function About() {
 
         <div className="max-w-[62ch] space-y-5 text-base leading-[1.75] text-[var(--color-text-secondary)]">
           <p>
-            EchoLedger is a quantitative DeFi research practice. Engagements range
-            from productized work &mdash; LP audits, treasury reviews, pool
-            diagnostics &mdash; through scoped advisory for teams whose
-            problems don&rsquo;t fit a fixed-scope SKU. The methodology is
-            grounded in defipy, the open-source AMM analytics library Ian
+            EchoLedger is a quantitative DeFi research practice. Client services are currently paused; the work continues through open research and open-source tooling. The methodology is grounded in defipy, the open-source AMM analytics library Ian
             founded and maintains.
           </p>
 
@@ -88,8 +84,7 @@ export function About() {
           </p>
 
           <p className="pt-2 text-[0.9375rem] text-[var(--color-text-muted)]">
-            Based in British Columbia. Engagements contracted through EchoLedger
-            Inc.
+            Based in British Columbia. EchoLedger Ltd.
           </p>
         </div>
       </div>

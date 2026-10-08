@@ -1,3 +1,5 @@
+> **Archived 2026-10-08:** this document describes the services practice, which is now paused. See tag/branch `archive/services-v1`. Kept for reference only.
+
 # EchoLedger Services — Full Offering Outline
 
 *Complete service architecture: SKU specs, page-ready copy, and end-to-end workflow.*

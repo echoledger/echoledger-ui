@@ -1,8 +1,8 @@
 # echoledger-ui
 
-Marketing site for [EchoLedger](https://echoledger.ai) — a productized quantitative DeFi analysis practice.
+Site for [EchoLedger](https://echoledger.ai) — a quantitative DeFi research practice.
 
-Three fixed-price services: LP position audits, DAO treasury reviews, and pool health & rug risk assessments. Methodology powered by [defipy](https://defipy.org), the open-source AMM analytics library (50,000+ downloads). Engagements contracted through EchoLedger Inc.
+Client services (LP audits, treasury reviews, pool health assessments) are **paused** as of 2026-10-08; the previous services site is preserved at tag/branch `archive/services-v1`. The site now presents the open-source [defipy](https://defipy.org) library (55,000+ downloads), the hosted MCP endpoint (`/mcp`) and the StateTwins agent (`/agent`).
 
 ## Stack
 
@@ -35,8 +35,7 @@ src/
     Nav.tsx
     Hero.tsx
     Credibility.tsx
-    SkuRail.tsx         # Three SKU cards
-    SkuCard.tsx
+    ServicesNotice.tsx  # "Client services are paused" notice
     Methodology.tsx
     About.tsx
     WhatsNext.tsx

@@ -1,3 +1,5 @@
+> **Archived 2026-10-08:** this document describes the services practice, which is now paused. See tag/branch `archive/services-v1`. Kept for reference only.
+
 # EchoLedger Services — The Monetary Extension of Defipy
 
 *Positioning document. How the open-source library and the consulting practice relate, why both exist, and what each is for.*

@@ -1,3 +1,5 @@
+> **Archived 2026-10-08:** this document describes the services practice, which is now paused. See tag/branch `archive/services-v1`. Kept for reference only.
+
 # EchoLedger Services — Project Seed Brief
 
 *Bootstrap context for the EchoLedger Services project. Drop this into project knowledge so the project starts informed, not blank.*

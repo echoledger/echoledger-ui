@@ -65,7 +65,7 @@ export function Footer() {
             </a>
           </p>
           <p className="pt-4 text-xs text-[var(--color-text-muted)]">
-            &copy; 2026 EchoLedger Inc.
+            &copy; 2026 EchoLedger Ltd.
           </p>
         </div>
       </div>

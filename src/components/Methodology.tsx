@@ -28,7 +28,7 @@ export function Methodology() {
     <section id="method" className="px-8 py-28">
       <div className="mx-auto max-w-[1100px]">
         <SectionEyebrow>Method</SectionEyebrow>
-        <SectionTitle>The math is open. The reports are paid.</SectionTitle>
+        <SectionTitle>The math is open.</SectionTitle>
 
         <div className="text-base leading-[1.75] text-[var(--color-text-secondary)]">
           <Image
@@ -51,13 +51,10 @@ export function Methodology() {
               stableswaps.
             </p>
             <p>
-              Buyers don&rsquo;t pay for proprietary math. They pay for the
-              analysis: the right position selected, the data pulled cleanly,
-              the model run correctly the first time, and the recommendation
-              written by the operator behind the methodology.
+              The math isn&rsquo;t proprietary. The library is open, and the analysis built on it is meant to be checked, not trusted: the right position selected, the data pulled cleanly, and the model run correctly the first time.
             </p>
             <p>
-              Every report cites the defipy functions used, links to the source,
+              Every analysis cites the defipy functions used, links to the source,
               and is reproducible by anyone who wants to verify it.
             </p>
           </div>
