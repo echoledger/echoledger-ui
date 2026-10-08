@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -51,9 +50,10 @@ export const metadata: Metadata = {
     description:
       "PhD-grade liquidity-position analysis powered by defipy. Fixed-price reports, operator sign-off, methodology you can verify.",
   },
+  // Archive snapshot: must never be indexed.
   robots: {
-    index: true,
-    follow: true,
+    index: false,
+    follow: false,
   },
 };
 
@@ -117,7 +117,6 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         {children}
-        <Analytics />
       </body>
     </html>
   );
