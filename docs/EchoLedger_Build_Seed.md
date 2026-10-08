@@ -1,3 +1,5 @@
+> **Archived 2026-10-08:** this document describes the services practice, which is now paused. See tag/branch `archive/services-v1`. Kept for reference only.
+
 # EchoLedger.ai — Site Build Seed
 
 *Handoff brief for the build thread. Pairs with the existing project docs (Services Seed, Defipy Extension, Full Offering Outline) — this doc adds the implementation-layer context those don't cover: stack, visual spec, positioning shift, and build scope.*

@@ -16,17 +16,14 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://echoledger.ai"),
   title: {
-    default: "EchoLedger — Quantitative DeFi analysis, productized",
+    default: "EchoLedger — Quantitative DeFi analysis, open by design",
     template: "%s — EchoLedger",
   },
   description:
-    "PhD-grade liquidity-position analysis powered by defipy. Fixed-price reports, operator sign-off, methodology you can verify. LP audits, DAO treasury reviews, pool health assessments.",
+    "PhD-grade liquidity-position analysis powered by defipy. Open methodology you can verify, a hosted MCP analytics endpoint, and the StateTwins agent.",
   applicationName: "EchoLedger",
   keywords: [
     "DeFi analysis",
-    "liquidity position audit",
-    "DAO treasury review",
-    "pool health assessment",
     "Uniswap V3 analysis",
     "impermanent loss",
     "defipy",
@@ -34,22 +31,22 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Ian Moore", url: "https://echoledger.ai" }],
   creator: "Ian Moore",
-  publisher: "EchoLedger Inc.",
+  publisher: "EchoLedger Ltd.",
   openGraph: {
     type: "website",
     url: "https://echoledger.ai",
     siteName: "EchoLedger",
-    title: "EchoLedger — Quantitative DeFi analysis, productized",
+    title: "EchoLedger — Quantitative DeFi analysis, open by design",
     description:
-      "PhD-grade liquidity-position analysis powered by defipy. Fixed-price reports, operator sign-off, methodology you can verify.",
+      "PhD-grade liquidity-position analysis powered by defipy. Open methodology you can verify.",
   },
   twitter: {
     card: "summary_large_image",
     site: "@ic3moore",
     creator: "@ic3moore",
-    title: "EchoLedger — Quantitative DeFi analysis, productized",
+    title: "EchoLedger — Quantitative DeFi analysis, open by design",
     description:
-      "PhD-grade liquidity-position analysis powered by defipy. Fixed-price reports, operator sign-off, methodology you can verify.",
+      "PhD-grade liquidity-position analysis powered by defipy. Open methodology you can verify.",
   },
   robots: {
     index: true,
@@ -72,11 +69,11 @@ const jsonLd = {
       "@type": "Organization",
       "@id": "https://echoledger.ai/#organization",
       name: "EchoLedger",
-      legalName: "EchoLedger Inc.",
+      legalName: "EchoLedger Ltd.",
       url: "https://echoledger.ai",
       email: "imoore@echoledger.ai",
       description:
-        "Productized quantitative DeFi analysis practice. LP audits, DAO treasury reviews, pool health assessments. Methodology powered by defipy.",
+        "Quantitative DeFi research practice. Open-source AMM analytics (defipy), a hosted MCP analytics endpoint, and the StateTwins agent.",
       founder: { "@id": "https://echoledger.ai/#person" },
       sameAs: [
         "https://github.com/defipy-devs",

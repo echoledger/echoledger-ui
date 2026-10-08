@@ -6,7 +6,8 @@ import { Hero } from "@/components/Hero";
 import { Methodology } from "@/components/Methodology";
 import { Nav } from "@/components/Nav";
 import { Research } from "@/components/Research";
-import { SkuRail } from "@/components/SkuRail";
+import { ServicesNotice } from "@/components/ServicesNotice";
+
 import { WhatsNext } from "@/components/WhatsNext";
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
       <main>
         <Hero />
         <Credibility />
-        <SkuRail />
+        <ServicesNotice />
         <Methodology />
         <Research />
         <About />
