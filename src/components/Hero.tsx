@@ -5,7 +5,7 @@ export function Hero() {
     <section className="px-8 pb-28 pt-36">
       <div className="mx-auto max-w-[1100px]">
         <h1 className="mb-7 max-w-[18ch] text-[clamp(2.5rem,5.5vw,4rem)] font-medium leading-[1.1] tracking-[-0.025em] text-[var(--color-text-primary)]">
-          Quantitative DeFi analysis, open by design.
+          Quantitative on-chain analysis, open by design.
         </h1>
         <p className="mb-10 max-w-[55ch] text-lg leading-[1.6] text-[var(--color-text-secondary)]">
           Open methodology you can verify.
