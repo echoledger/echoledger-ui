@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://echoledger.ai"),
   title: {
-    default: "EchoLedger — Quantitative DeFi analysis, open by design",
+    default: "EchoLedger — Quantitative on-chain analysis, open by design",
     template: "%s — EchoLedger",
   },
   description:
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://echoledger.ai",
     siteName: "EchoLedger",
-    title: "EchoLedger — Quantitative DeFi analysis, open by design",
+    title: "EchoLedger — Quantitative on-chain analysis, open by design",
     description:
       "PhD-grade liquidity-position analysis powered by defipy. Open methodology you can verify.",
   },
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@ic3moore",
     creator: "@ic3moore",
-    title: "EchoLedger — Quantitative DeFi analysis, open by design",
+    title: "EchoLedger — Quantitative on-chain analysis, open by design",
     description:
       "PhD-grade liquidity-position analysis powered by defipy. Open methodology you can verify.",
   },
