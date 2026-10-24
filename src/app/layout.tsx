@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     template: "%s — EchoLedger",
   },
   description:
-    "PhD-grade liquidity-position analysis powered by defipy. Open methodology you can verify, a hosted MCP analytics endpoint, and the StateTwins agent.",
+    "PhD-grade liquidity-position analysis powered by defipy. Open methodology you can verify.",
   applicationName: "EchoLedger",
   keywords: [
     "DeFi analysis",
@@ -73,7 +73,7 @@ const jsonLd = {
       url: "https://echoledger.ai",
       email: "imoore@echoledger.ai",
       description:
-        "Quantitative DeFi research practice. Open-source AMM analytics (defipy), a hosted MCP analytics endpoint, and the StateTwins agent.",
+        "Quantitative DeFi research practice. Open-source AMM analytics (defipy) and published research on State Twins.",
       founder: { "@id": "https://echoledger.ai/#person" },
       sameAs: [
         "https://github.com/defipy-devs",
