@@ -10,8 +10,8 @@ export function Contact() {
         <SectionEyebrow>Contact</SectionEyebrow>
         <SectionTitle>Get in touch.</SectionTitle>
         <SectionLede>
-          For research collaboration, questions about defipy or the MCP
-          endpoint, or press.
+          For research collaboration, questions about defipy and our research,
+          or press.
         </SectionLede>
 
         <div className="max-w-[520px] rounded-lg border border-[rgb(58_106_120/0.3)] bg-[var(--color-bg-elevated)] p-7">
